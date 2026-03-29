@@ -83,6 +83,7 @@ while True:
             i += 1
         print(f"Total de productos vendidos: \033[36m{TOTSUC}\033[0m \nProducto más vendido: \033[33m{MYPROD}\033[0m con un importe de \033[32m{MYIMPOR}\033[0m \nProducto menos vendido: \033[33m{MNPRO}\033[0m con un importe de \033[31m{MNIMPOR}\033[0m")
         print("/" * 19)
+        
 #-----------------------------------------------------------------------------------------------------#
 
     elif opcion == "3":
