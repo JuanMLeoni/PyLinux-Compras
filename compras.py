@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('COM\PyLinux-Compras\Compras.csv')
+df = pd.read_csv('Compras.csv')
 
 while True:
     print("1. Ver ventas por sucursal y producto")
@@ -96,6 +96,7 @@ while True:
             if df['PRSUC'][i] == Su:
                 TOTALIMP = round(TOTALIMP + (df['PRCANT'][i] * df['PRPRE'][i]), 2)
             else:
+                TOTALIMP = round(TOTALIMP + (df['PRCANT'][i] * df['PRPRE'][i]), 2)
                 CANSUC += 1
                 Su = df['PRSUC'][i]
             i += 1
